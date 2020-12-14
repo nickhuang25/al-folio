@@ -282,7 +282,7 @@ footer.sticky-bottom {
 
 // Publications
 
-.publications {
+.experiences {
   margin-top: 2rem;
   h1 {
     color: var(--global-theme-color);
@@ -294,21 +294,63 @@ footer.sticky-bottom {
   h2 {
     margin-bottom: 1rem;
     span {
-      font-size: 1.5rem;
+      font-size: 1rem;
     }
   }
   h2.year {
-    color: $grey-color-light;
     border-top: 1px solid $grey-color-light;
     padding-top: 1rem;
     margin-top: 2rem;
     margin-bottom: -2rem;
     text-align: right;
+    font-size: medium;
+    font-weight: bolder;
   }
+
+  .expContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    .timeline {
+      width: 20%;
+      .time {
+        margin-top: .5rem;
+        display: inline-block;
+        background-color: var(--global-theme-color);
+        padding-left: 1rem;
+        padding-right: 1rem;
+        color: white;
+        border-radius: 10px;
+        font-weight: bolder;
+      }
+    }
+
+    .expInfo {
+      width: 80%;
+      .company {
+        font-weight: bold;
+        font-size: x-large;
+        margin-top: 0;
+      }
+      .role {
+        font-weight: bolder;
+        margin-top: -1rem;
+      }
+      .description {
+        margin-top: -1rem;
+      }
+
+    }
+
+  }
+
+
+
+
   ol.bibliography {
     list-style: none;
     padding: 0;
-    margin-top: 0;
+    margin-top: 1rem;
 
     li {
       margin-bottom: 1rem;
@@ -336,17 +378,17 @@ footer.sticky-bottom {
         font-weight: bolder;
       }
       .author {
-        a {
-          border-bottom: 1px dashed var(--global-theme-color);
-          &:hover {
-              border-bottom-style: solid;
-              text-decoration: none;
-          }
-        }
-        > em {
-          border-bottom: 1px solid;
+        // a {
+        //   border-bottom: 1px dashed var(--global-theme-color);
+        //   &:hover {
+        //       border-bottom-style: solid;
+        //       text-decoration: none;
+        //   }
+        // }
+        // > em {
+        //   border-bottom: 1px solid;
           font-style: normal;
-        }
+        // }
       }
       .links {
         a.btn {

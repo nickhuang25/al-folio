@@ -12,4 +12,10 @@ layout: default
     {{ content }}
   </article>
 
+  {% if page.social %}
+    <div class="social">
+      {% include social.html %}
+    </div>
+    {% endif %}
+
 </div>
