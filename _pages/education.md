@@ -8,7 +8,7 @@ organizations: [
     company: University of Michigan - College of Engineering,
     role: B.S.E Computer Science,
     timeline: 2018 - 2021,
-    description: "GPA: 3.78/4.00",
+    description: "GPA: 3.83/4.00",
     description2: "Relevant Coursework: Web Systems, Machine Learning, Conversational AI, Data Structures and Algorithms, Computer Organization",
     description3: "Skills and Libraries: Javascript, Python, Flask, Node.js, Java, C, C++, Swift, MATLAB, HTML, CSS, PyTorch, Keras, Tensorflow, Spark"
   },
