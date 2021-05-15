@@ -5,6 +5,12 @@ title: Education
 description:
 organizations: [
   {
+    company: University of Michigan - Rackham Graduate School,
+    role: M.S.E Computer Science Engineering,
+    timeline: 2021 - 2022,
+    description: "Activies: Incoming Graduate Student Instructor",
+  },
+  {
     company: University of Michigan - College of Engineering,
     role: B.S.E Computer Science,
     timeline: 2018 - 2021,
