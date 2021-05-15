@@ -7,7 +7,13 @@ organizations: [
   {
     company: Palantir Technologies,
     role: Forward Deployed Software Engineer Intern,
-    timeline: Summer 2020 & Summer 2021,
+    timeline: Summer 2021,
+    description: "I'm excited to be returning to Palantir this summer as an FDSE intern!"
+  },
+  {
+    company: Palantir Technologies,
+    role: Forward Deployed Software Engineer Intern,
+    timeline: Summer 2020,
     description: "At Palantir, I worked on large scale data integration and cleaning by writing transforms for big data, and subsequently utilized the cleaned data to build models and workflows for a partner client. A significant portion of my role was to demo those workflows to clients and guide them through user adoption, all while continuing to finetune the product from a software perspective."
   },
   {
